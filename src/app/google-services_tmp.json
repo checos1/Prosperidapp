@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "208117465558",
+    "project_id": "apphogaresfcm",
+    "storage_bucket": "apphogaresfcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:208117465558:android:0250d4db4e61a9a677a477",
+        "android_client_info": {
+          "package_name": "com.example.apphogares"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIFGOtO6EnWDQdjvTRZZM2dHJqacxBnEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

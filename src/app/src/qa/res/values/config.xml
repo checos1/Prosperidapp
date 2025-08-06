@@ -1,0 +1,9 @@
+<resources>
+    <string name="base_url">https://fa-dafc-apphogares-qa.azurewebsites.net/api/</string>
+    <string name="api_key">yF5abPZBm8GMXBskHOjg6w5KRNTv6PkeWnxJM4PM2eLhAzFuedzpGw==</string>
+    <string name="access_token">"?1oT3IwQG0IlKIpsQezMUZ6VfBfCP85sa6k5sNVxuUByyNgv6sznLZJMC8Bdg2qYB8uZHeD1Li42C+AStVWIKJA=="</string>
+    <string name="access_token1">sv=2022-11-02&amp;ss=bfqt&amp;srt=o&amp;sp=rwdlacupiytfx&amp;se=2028-06-11T22:16:51Z&amp;st=2024-06-11T14:16:51Z&amp;spr=https&amp;sig=0uPuzsC0yl5pgJZmpMcZMUWJcM6dci3Zr0teVeK8gio%3D</string>
+    <string name="url_storage">https://sapsdafchogaresprod.blob.core.windows.net/cntpsdafchogaresprod/assets/</string>
+    <string name="container_name">cntpsdafchogaresqa/PQRs</string>
+    <string name="base_url_storage">https://sapsdafchogaresqa.blob.core.windows.net/</string>
+</resources>

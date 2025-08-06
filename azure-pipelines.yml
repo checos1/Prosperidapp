@@ -1,0 +1,34 @@
+# Azure Pipelines YAML file
+
+trigger:
+- main
+
+pool:
+  vmImage: 'macos-latest'  # Adjust based on your project requirements
+
+steps:
+- task: Gradle@2
+  inputs:
+    gradleWrapperFile: '$(System.DefaultWorkingDirectory)/src/gradlew'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/src'
+    tasks: 'bundleDebug'  # Replace with 'bundleRelease' for release
+    publishJUnitResults: false
+    javaHomeOption: 'JDKVersion'
+    jdkVersionOption: '1.17'
+    gradleOptions: '-Xmx3072m'
+    sonarQubeRunAnalysis: false
+    spotBugsAnalysis: false
+
+- task: CopyFiles@2
+  displayName: 'Copy AAB'
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)/src/app/build/outputs/bundle/debug'  # Adjust variant
+    Contents: '**/*.aab'
+    TargetFolder: '$(build.artifactStagingDirectory)'
+
+- task: PublishBuildArtifacts@1
+  displayName: Upload as Artifact
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'

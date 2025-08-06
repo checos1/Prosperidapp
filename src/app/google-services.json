@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "502011869018",
+    "project_id": "prosperapp-fe980",
+    "storage_bucket": "prosperapp-fe980.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502011869018:android:a66f2b37a88959d28be563",
+        "android_client_info": {
+          "package_name": "co.gov.prosperidadsocial.prosperapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4PQi98Opj1opIXWk8ZFPU2k86mMoWCZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502011869018:android:225a6619f7c4fa2a8be563",
+        "android_client_info": {
+          "package_name": "co.gov.prosperidadsocial.prosperapp.qa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4PQi98Opj1opIXWk8ZFPU2k86mMoWCZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
